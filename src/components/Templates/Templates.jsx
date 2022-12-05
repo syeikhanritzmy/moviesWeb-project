@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 
 import Navbar from '../UI/organisms/navbar/Navbar'
 
-// Pages
+import HomePage from '../pages/home'
 
 import Footer from '../UI/organisms/footer/Footer'
 
@@ -12,9 +12,9 @@ function Templates() {
     <>
       <Navbar />
 
-      {/* <Routes>
-        Route Pages
-      </Routes> */}
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+      </Routes>
 
       <Footer />
     </>
