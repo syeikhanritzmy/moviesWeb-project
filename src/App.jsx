@@ -1,5 +1,12 @@
+import React from 'react'
+import Templates from './components/Templates/Templates'
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <Templates />
+    </>
+  )
 }
 
-export default App;
+export default App
