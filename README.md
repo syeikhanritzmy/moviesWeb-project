@@ -30,7 +30,7 @@ Zeitmovie is a website about existing movies
 
 - Home Page
 
-- Saved Page
+- Search Page
 
 <br />
 
